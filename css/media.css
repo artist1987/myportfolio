@@ -2,87 +2,60 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-	
+   
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {	
-	.text1 {       
-    top: 275px;
-}
-.owl-item {    
-    height: 657px;
-}
+	.list {
+        padding: 2% 7%;
+    }
 
-	
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-	body {
-		padding: 0 15%;
-		background-image: url(../img/sunset_with_small_islands-wallpaper-3840x2160.jpg);
-		background-repeat: no-repeat;		
-	}
-	.left_banner {		
-	min-width: 100%;				
-		height: 480px;	
-		background-size: 210px;
-		position: relative;
-		padding: 0;
-		background-image: none;		
-	}	
-	.right_banner{
-		margin: 0;
-	}	
-	.slider_container {
-		position: absolute;
-		height: auto;
-		width: 100%;
-	}
-	.social {
-		bottom: 0;
-		margin: 16% 10%;
-	}
-	form {
-		max-width: 100%;
-		height: 100%;
-	}
-	.text1 {       
-    top: 150px;
-}
-.nav_slider {
-	display: none;
-	
-}
-
-.right_banner::after {
-        clear: both;
-    content: ".";
-    display: block;
-    height: 657px;
+@media only screen and (max-width : 768px) {	
+    .menu {
+        margin: 3% 0 0; 
     }
-    .footer .copyrights {    
-    position: static;
-    background-color: #2a2a2a;
-    text-align: center;
+    .row1 span {
+        margin-left: 10px;        
+    }
+    .row1 a {
+        font-size: 17px;
+    }
+    .row1 {
+        font-size: 17px;
+    }
+    .menu {
+        font-size: 17px;
+    }
+    .menu i {
+        margin-right: 10px;
+    }
+    .logo {
+        height: 30px;
+        width: 30px;
+        font-size: 16px;
+    }
+    .logo1 {
+        height: 30px;
+        width: 30px;
+        font-size: 16px;
+    }
+    .logo2 {
+        height: 30px;
+        width: 30px;
+        font-size: 16px;
+    }
+
 }
-			
-	
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	body {
-		padding: 0;
-		background-image: none;
-		
-	}
-	.text1 {       
-    top: 150px;
-    font-size: 19px;
-    margin: 19px 4px;
-}
 	
+
 }
 
 /* Custom, iPhone Retina */
@@ -95,21 +68,28 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
+   
+
 
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
+     
 
 }
 
+
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+    
 	
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+	
+
 	
 
 }

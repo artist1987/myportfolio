@@ -1,4 +1,4 @@
-albionicfamily: "RobotoRegular"; */
+/* font-family: "RobotoRegular"; */
 @font-face {
 	font-family: "RobotoRegular";
 	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
@@ -35,15 +35,6 @@ albionicfamily: "RobotoRegular"; */
 	src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix")format("embedded-opentype"),
 	url("../fonts/RobotoBold/RobotoBold.woff") format("woff"),
 	url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype");
-	font-style: normal;
-	font-weight: normal;
-}
-@font-face {
-	font-family: 'albionic';
-	src: url('../fonts/albionic.eot');
-	src: url('../fonts/albionic.eot?#iefix') format('embedded-opentype'),
-		 url('../fonts/albionic.woff') format('woff'),
-		 url('../fonts/albionic.ttf') format('truetype');
 	font-style: normal;
 	font-weight: normal;
 }

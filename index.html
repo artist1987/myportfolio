@@ -7,95 +7,144 @@
 <!--<![endif]-->
 <head>
 	<meta charset="utf-8" />
-	<title>Portfolio</title>
+	<title>Заголовок</title>
 	<meta name="description" content="" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
 	<link rel="shortcut icon" href="favicon.png" />
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
-	<link rel="stylesheet" href="libs/MagnificPopup/magnific-popup.css" />
 	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />	
 	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
 	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/main.css" />
-	<link rel="stylesheet" href="css/media.css" />			
+	<link rel="stylesheet" href="css/media.css" />
+	<link rel="localization" href="locales/browser.json">
+	<script type="text/javascript" src="js/l20n.min.js"></script>
 </head>
 <body>
-	<section class="container">
-	<div class="container col-md-12">	
-		<div class="left_banner col-md-4">					
-			<a href="#callback" class="button btn">Написать мне</a>
-			<div class="text1" ><span class="name">Жариков Юрий</span>
-			<p class="prof">HTML coder <br> Верстка / Система управления</p></div>					
-			<div class="social">				
-				<a href="#"><p class="soc_button btn1"></p></a>	
-				<a href="#"><p class="soc_button btn2"></p></a>		
-				<a href="#"><p class="soc_button btn3"></p></a>
-			</div>					
-			
-		</div>			
-	<div class="right_banner col-md-8">	
-		<div class="slider_container">		
-			<div class="nav_slider">				
-				<div class="next_button"><i class="fa fa-angle-right"></i>
-				</div>
-				<div class="prev_button"><i class="fa fa-angle-left"></i>
-				</div>
-			</div>						
-			<div class="home-gallery-wrap carousel">				
-				<a href="img/roomba.jpg" class="mfp-gallery"><img src="img/roomba.jpg" alt></a>
-				<a href="img/afg.jpg" class="mfp-gallery"><img src="img/afg.jpg" alt></a>
-				<a href="img/ahimchistka.jpg" class="mfp-gallery"><img src="img/ahimchistka.jpg" alt></a>
-				<a href="img/Restaurants.jpg" class="mfp-gallery"><img src="img/Restaurants.jpg" alt></a>
-				<a href="img/42.jpg" class="mfp-gallery"><img src="img/42.jpg" alt></a>
-				<a href="img/layout.jpg" class="mfp-gallery"><img src="img/layout.jpg" alt></a>
-				<a href="img/Dia2t7MIBSA.jpg" class="mfp-gallery"><img src="img/Dia2t7MIBSA.jpg" alt></a>
-				
-			</div>		
-			</div>	
+	<header class="top_header">
+		<div class="header_topline">	
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">								
+						<div class="col-md-2 col-sm-2 col-xs-3">							
+							<div class="logo col-md-6 col-sm-6 col-xs-6"><a class="btn btn-info disabled" href="#"><i class="fa fa-file-o"></i></a></div>
+							<div class="logo col-md-6 col-sm-6 col-xs-6"><a class="btn btn-info disabled" href="#"><i class="fa fa-search"></i></a></div>
+
+
+						</div>
+						
+						<div class="col-md-7 col-sm-6 col-xs-3">
+							<div class="top_img">								
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4 col-xs-6">
+							
+							<div class="logo1 col-md-6 col-sm-6 col-xs-6"><a class="btn btn-info disabled" href="#"><i class="fa fa-bell-o"></i></a></div>
+							<div class="logo1 col-md-6 col-sm-6 col-xs-6"><a class="btn btn-info disabled" href="#"><i class="fa fa-info-circle"></i></a></div>
+							<div class="logo2 col-md-6 col-sm-6 col-xs-6"><a class="btn btn-info disabled" href="#"></a></div>
+							<div class="logo1 col-md-6 col-sm-6 col-xs-6"><a class="btn btn-info disabled" href="#"><i class="fa fa-plus"></i></a></div>
+
+							
+						</div>
+					</div>
+
+				</div>	
 			</div>
-		</div>
-	</div>
-	</div>
-</section>
-<div class="hidden">	
-		<form id="callback" class="pop_form col-md-10 col-md-offset-1">
-			<h3 class="top_text">Обратная связь</h3>
-			<input type="text" name="name" placeholder="Ваше имя ..." required /><br />
-			<input type="text" name="email" placeholder="Ваш почтовый ящик ..." required /><br />
-			<textarea type="text" name="text"></textarea><br />
-			<button class="button_pop" type="submit">Отправить</button>
-		</form>
-	</div>	
-</div>
-<footer class="footer">
-			<p class="copyrights">
-				<span class="year">2016</span>
-				©
-				<br class="visible-sm visible-xs">
-				Zharikov Yuriy
-			</p>
-			</footer>
+		</div>	
+	</header>
+	<section>
+		<div class="cen_container">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">		
+
+						<div class="row1 col-md-6 col-sm-6 col-xs-8"><p data-l10n-id="">Testboard</p>
+							<span class="star"><i class="fa fa-star-o"></i></span>
+							<span class="bag"><i class="fa fa-suitcase"></i></span>
+							<a class="private" href="#" data-l10n-id="Private">Private</a>
+						
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-4">
+						<a class="menu" href="#"><p data-l10n-id="Show menu"><i class="fa fa-ellipsis-h"></i>Show menu</p></a></div>
+
+					</div>
+
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="col-md-5">
+							<form id="CardHolder" class="pop_form">
+								<h3 data-l10n-id="column1">Column1 <i class="fa fa-ellipsis-h"></i></h3>
+								<input class="input" type="text" name="card1" placeholder="Card1" required />
+								<input class="input" type="text" name="card2" placeholder="Card2" required />
+								<a class="add" href="#"><span data-l10n-id="add a card">Add a card #</span></a>
+								
+							</form>
+						</div>
+						<div class="col-md-5">
+							<form id="CardHolder" class="pop_form">
+								<h3 data-l10n-id="column2">Column2 <i class="fa fa-ellipsis-h"></i></h3>
+								<input class="input" type="text" name="card1" placeholder="Card1" required />
+								<input class="input" type="text" name="card2" placeholder="Card2" required />
+								<a class="add" href="#"><span data-l10n-id="add a card">Add a card #</span></a>
+								
+							</form>
+
+						</div>
+						
+							<div class="col-md-2">
+								<div class="row">
+									<div class="list">
+										<a class="add_list" href="#"><span>Add a list ...</span></a>
+										
+									</div>
+								</div>
+							</div>
+						
+					</div>
+
+				</div>
+			</div>
+		</section>		
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="footer">
+						<p data-l10n-id="discovery">The one and only ultra-proximity dating app</p>
+					</div>	
+				</div>
+			</div>
+
+		</footer>
+
+
+
+
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
 	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
 	<script src="libs/respond/respond.min.js"></script>
 	<![endif]-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
-	<script src="libs/MagnificPopup/jquery.magnific-popup.min.js"></script>
 	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
-	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>	
 	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
 	<script src="libs/countdown/jquery.plugin.js"></script>
 	<script src="libs/countdown/jquery.countdown.min.js"></script>
 	<script src="libs/countdown/jquery.countdown-ru.js"></script>
 	<script src="libs/landing-nav/navigation.js"></script>
-	<script src="js/common.js"></script>
+	<script src="react-0.14.8/build/react.min.js"></script>
+	<script src="react-0.14.8/build/react-dom.js"></script>
+	<script type="text/babel" src="js/common.js"></script>
+	
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
