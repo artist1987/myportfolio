@@ -6,6 +6,6 @@
   ],
   "default_locale": "en",
   "resources": [
-    "../locales/{{locale}}.l20n"
+    "./{{locale}}.l20n"
   ]
 }

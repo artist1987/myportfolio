@@ -103,7 +103,7 @@ body {
 }
 .cen_container .container {
     background-color: #0079BF;
-    height: 600px;
+    height: 605px;
 }
 .row1 {
     color: #fff;
@@ -111,7 +111,12 @@ body {
     font-size: 25px;
     font-weight: bold;
     padding-left: 30px;
+    margin: 2% 0;
 }
+.row2 {
+    margin: 2% 0;
+}
+
 .star {
     margin-left: 30px;
     font-size: 20px;
@@ -136,17 +141,22 @@ body {
     display: inline-block;
     float: right;    
     font-size: 20px;
-    font-weight: 400;        
-    margin: 2% 0 0;   
+    font-weight: 400;   
     color: #fff;
 }
 .menu i {
     margin-right: 20px;    
     
 }
-.menu p {    
+.menu span {    
     text-decoration: underline;
     
+}
+.column {
+    font-size: 19px;
+    font-weight: 700;
+    margin: 3% 5%;
+    width: 90%;
 }
 .pop_form {
     background-color: #e2e4e6;

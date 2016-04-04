@@ -1,7 +1,7 @@
-<Testboard "Testboard">
-<Private "Private">
-<Show menu "Show menu">
-<Сolumn1 "Сolumn1">
-<Сolumn2 "Сolumn2">
-<add a card "add a card">
-<List "Add List ...">
+<testboard "Testboard">
+<private "Private">
+<show menu "Show menu">
+<column1 "Сolumn1">
+<column2 "Сolumn2">
+<add "add a card">
+<list "Add List ...">

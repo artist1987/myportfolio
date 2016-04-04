@@ -1,7 +1,7 @@
-<Testboard "Тестовая доска">
-<Private "Приват">
-<Show menu "Меню">
-<Column1 "Колонка1">
-<Column2 "Колонка2">
-<Add a card "Добавить карту">
-<List "Добавить лист">
+<testboard "Доска">
+<private "Приват">
+<show "Меню">
+<column1 "Колонка1">
+<column2 "Колонка2">
+<add "Добавить карту">
+<list "Лист ...">

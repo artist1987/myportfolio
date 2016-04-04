@@ -1,5 +1,0 @@
-node_modules
-tools/*.l20n
-tools/*.properties
-tools/*.json
-tools/perf/*.json
