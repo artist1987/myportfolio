@@ -1,0 +1,59 @@
+body {	
+	min-width: 320px;
+	position: relative;
+	line-height: 1.6;
+	font-family: "OpenSansRegular", sans-serif;
+	overflow-x: hidden;
+}
+.hidden {
+	display: none;
+}
+.navbar-brand {
+	padding: 0;
+	position: relative;
+	top: 5px;
+	z-index: 2;
+}
+.top_phone {
+	top: 12px;
+	position: relative;
+	text-align: center;	
+}
+.main-head > .navbar {
+	margin-bottom: 0;
+}
+.carousel-inner > .item > img {
+	position: relative;	
+}
+.carousel-inner .overlay {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(36,36,36,.7);
+}
+.main-head ul.navbar-nav {
+    margin-top: 25px;
+    position: relative;
+    z-index: 3;
+}
+.slide_img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.main-head .navbar {
+	z-index: 20;
+}
+.carousel-inner .h1 {
+	font-family: "OpenSansBold", sans-serif;
+	line-height: 1.5;
+	margin-top: 0;
+}
